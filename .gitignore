@@ -1,0 +1,12 @@
+@'
+node_modules/
+backend/node_modules/
+backend/emergency_messages.db
+backend/emergency_messages.db-shm
+backend/emergency_messages.db-wal
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Path "$HOME\OneDrive\Desktop\Emergency_AI\.gitignore"

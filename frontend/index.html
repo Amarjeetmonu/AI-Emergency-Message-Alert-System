@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Message AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Emergency Message Alert</h1>
+        <p>Detect important messages before they go unnoticed.</p>
+
+        <section class="dashboard">
+    <h2>Message Analytics</h2>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Total Messages</h3>
+            <p id="totalCount">0</p>
+        </div>
+
+        <div class="stat-card normal-card">
+            <h3>Normal</h3>
+            <p id="normalCount">0</p>
+        </div>
+
+        <div class="stat-card urgent-card">
+            <h3>Urgent</h3>
+            <p id="urgentCount">0</p>
+        </div>
+
+        <div class="stat-card critical-card">
+            <h3>Critical</h3>
+            <p id="criticalCount">0</p>
+        </div>
+
+        <div class="stat-card pending-card">
+            <h3>Pending Critical</h3>
+            <p id="pendingCount">0</p>
+        </div>
+
+        <div class="stat-card acknowledged-card">
+            <h3>Acknowledged Critical</h3>
+            <p id="acknowledgedCount">0</p>
+        </div>
+    </div>
+
+    <button id="refreshStatsBtn" type="button">
+        Refresh Statistics
+    </button>
+
+    <p id="statsStatus" role="status"></p>
+</section>
+
+        <textarea id="message"
+            placeholder="Enter your message here..."></textarea>
+
+        <button id="analyzeBtn">Analyze Message</button>
+
+        
+<div id="result" class="result">
+    Your message analysis will appear here.
+</div>
+
+<button id="acknowledgeBtn" hidden>
+    Acknowledge Alert
+</button>
+
+<section class="history">
+    <h2>Message History</h2>
+    <ul id="historyList"></ul>
+    <button id="clearHistoryBtn" type="button">
+        Clear History
+    </button>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
