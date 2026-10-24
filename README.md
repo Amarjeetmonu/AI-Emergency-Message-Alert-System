@@ -1,4 +1,6 @@
-![Uploading ai-2.jpeg…]()
+<img width="720" height="1600" alt="ai-1" src="https://github.com/user-attachments/assets/d21208f7-0cb2-40d6-abdb-d190a9c9e180" />
+<img width="720" height="1600" alt="ai-2" src="https://github.com/user-attachments/assets/4349b3c2-7132-48e0-873a-b7defbf86cba" />
+
 # AI Emergency Message Alert System
 
 A full-stack message urgency classification prototype that categorizes
