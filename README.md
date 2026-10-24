@@ -1,3 +1,4 @@
+![Uploading ai-2.jpeg…]()
 # AI Emergency Message Alert System
 
 A full-stack message urgency classification prototype that categorizes
